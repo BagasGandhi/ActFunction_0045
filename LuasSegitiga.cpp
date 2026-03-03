@@ -18,3 +18,8 @@ void input() {
 
     cout << "Luas segitiga = " << luas << endl;
 }
+
+int main() {
+    input();
+    return 0;
+}
