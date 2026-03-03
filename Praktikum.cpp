@@ -5,7 +5,7 @@ using namespace std;
     float p,l;
 
 //Implementasi Prosedur & Fungsi
-void input() {
+void Input() {
     cout << "Masukkan sisi Panjang : ";
     cin >> p;
     cout << "Masukkan sisi Lebar : ";
@@ -19,3 +19,9 @@ float LuasPersegi(){
 void output (){
     cout << "Hasilnya = " << LuasPersegi();
 }
+//program utama
+int main() 
+{//start
+    Input();
+    output();
+}//selesai
